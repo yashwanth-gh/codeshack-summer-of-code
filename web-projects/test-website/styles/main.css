@@ -3,6 +3,23 @@ html {
   }
 
   body {
-    background-color: rgb(69, 55, 55);
-    color: whitesmoke;
+    background-color: rgb(60, 51, 51);
+    color: rgb(250, 246, 246);
   }
+  a {
+    color: aliceblue;
+  }
+  a:visited {
+    color: lightgray;
+  }
+a:hover, a:active {
+    color: #eee;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+
+
+

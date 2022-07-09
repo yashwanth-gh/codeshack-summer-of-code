@@ -310,6 +310,165 @@
       </section>
     </main>
     <hr />
+    <article>
+      <h3><em>Hey i would love to here from you </em></h3>
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Personal details</legend>
+          <p>
+            <label for="firstName">First Name :</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="john"
+              autocomplete="on"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            <label for="lastName">Last Name :</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="walter"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email Address :</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="password">Password :</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="your secret"
+              required
+            />
+          </p>
+          <p>
+            <label for="phone">Phone Number :</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="01234567879"
+              autocomplete="on"
+              pattern="[0-9]{10}"
+              required
+            />
+          </p>
+          <p>
+            <label for="age">Your Age :</label>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              min="5"
+              max="100"
+              value="20"
+              step="1"
+              required
+            />
+          </p>
+          <p>
+            <label for="yourFavrouiteArt">Your Art Style :</label>
+            <select
+              name="yourFavrouiteArt"
+              id="yourFavrouiteArt"
+              multiple
+              size="5"
+            >
+              <optgroup label="Non colourful">
+                <option value="pencilSketch">Pencil sketch</option>
+                <option value="simpleDrawing">Simple Drawing</option>
+                <option value="penSketch">Pen sketch</option>
+              </optgroup>
+              <optgroup label="Colourful">
+                <option value="grafitti" selected>Grafitti</option>
+                <option value="painting">Painting</option>
+                <option value="others">Others</option>
+              </optgroup>
+            </select>
+          </p>
+          <p>
+            <label for="yourFavrouiteArt2">Your Favrouite Art :</label>
+            <input
+              type="text"
+              name="yourFavrouiteArt2"
+              id="yourFavrouiteArt2"
+              list="artList"
+            />
+            <datalist id="artList">
+              <!-- <option value="pensketch">Pen sketch</option> -->
+              <option value="pensketch"></option>
+              <option value="pencilsketch"></option>
+              <option value="simpleDrawing"></option>
+              <option value="grafitti"></option>
+              <option value="painting"></option>
+              <option value="Others"></option>
+            </datalist>
+          </p>
+        </fieldset>
+        <fieldset>
+            <legend>What are your Aspirations</legend>
+            <p>
+            <input type="radio" name="intrest" id="+veintrest" value="+ve" />
+            <label for="+veintrest">Intrested in learning a artform</label>
+          </p>
+          <p>
+            <input type="radio" name="intrest" id="-veintrest" />
+            <label for="-veintrest">Not intrested</label>
+          </p>
+          <p>
+            <input type="radio" name="intrest" id="nullintrest" />
+            <label for="nullintrest">Don't know</label>
+          </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>What do you think about this website</legend>
+            <p>
+            <input type="checkbox" name="intrest" id="good" value="+ve" />
+            <label for="good">Informative</label>
+          </p>
+          <p>
+            <input type="checkbox" name="intrest" id="okay" />
+            <label for="okay">Improvement is needed</label>
+          </p>
+          <p>
+            <input type="checkbox" name="intrest" id="average" />
+            <label for="average">Could be better</label>
+          </p>
+        </fieldset>
+        <fieldset>
+        <legend>Hey do you have any suggestions</legend> 
+        <p>
+          <label for="message">Type your message here :</label>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="enter your message here "></textarea>
+        </p>
+        </fieldset>
+        <br>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">POST</button>
+      </form>
+    </article>
+    <hr />
     <footer>
       <p>
         &nbsp; &lt; &lt; &lt;--- &copy;&nbsp;<a

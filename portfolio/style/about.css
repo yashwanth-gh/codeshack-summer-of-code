@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.page {
+  background-color: rgb(200, 255, 216);/**/
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  font-family: "Amatic SC", cursive;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color: rgba(167, 255, 192, 0.977);/**/
+  border-bottom: 0.1rem solid rgb(12, 255, 154);/**/
+  transition: 1s;
+}
+
+.navbar:hover {
+  background: linear-gradient(
+    rgba(0, 255, 136, 0.739),
+    rgba(54, 254, 184, 0.546),
+    rgba(50, 255, 173, 0.215)
+  );
+  background-color: rgba(31, 255, 221, 0.977);/**/
+}
+
+.navbar h2 {
+  /* letter-spacing: 4px; */
+  color: rgb(27, 1, 129);
+  margin-left: 0.5rem;
+  padding-right: 1rem;
+  transition: 1.5s ease-in-out;
+  font-family: 'Merriweather', serif;
+}
+
+.navbar:hover h2 {
+  border-top: 0.22rem solid rgb(27, 1, 129);
+  border-bottom: 0.22rem solid rgb(27, 1, 129);
+  margin-left: 1.7rem;
+  letter-spacing: 7px;
+}
+
+.navbar ul {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.navbar ul li a {
+  color: rgb(27, 1, 129);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: rgb(152, 129, 0);
+  background-color: rgb(191, 178, 255);
+  padding-left: 0.5rem;
+  padding-bottom: 0.2rem;
+  border-left: 0.2rem solid rgb(27, 1, 129);
+  border-bottom: 0.2rem solid rgb(27, 1, 129);
+  border-top: 0.07rem solid rgb(27, 1, 129);
+  border-right: 0.07rem solid rgb(27, 1, 129);
+}
+
+.head h2{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-left: 1vw;
+    color: rgb(27, 1, 129);
+    font-family: "Mouse Memoirs", sans-serif;
+}
+.mypic img{
+  margin-left: 37vw;
+  margin-top: -5vh;
+    height: 65vh;
+    width: auto;
+    border: 0.1rem solid rgb(0, 170, 88);
+    border-radius: 45%;
+}
+
+.name h3{
+    font-family: "Amatic SC", cursive;
+    margin-left: 42vw;
+    letter-spacing: 2.5px;
+    font-size: 3rem;
+}
+
+.para p{
+  font-size: 150%;
+  color: rgb(22, 0, 109);
+  font-family: "Indie Flower", cursive;
+  margin-left: 12vw;
+}
+
+.moreimg{
+  display: flex;
+  justify-content: center;
+}
+
+
+.end{
+  margin-top: 10vh;
+  background-color: rgba(0, 16, 79, 0.113);
+  padding-top: 3vh;
+  border-top: 0.2rem double black;
+}
+
+.footname h2 {
+
+  font-family: 'Merriweather', serif;
+  letter-spacing: 15px;
+  margin-left: 36vw;
+  margin-right: 37vw;
+  border-top: 0.2rem solid rgb(27, 1, 129);
+  border-bottom: 0.2rem solid rgb(27, 1, 129);
+}
+
+.handels ul{
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+  list-style: none;
+}
+.handels ul li a{
+  margin-left: 1.1rem;
+  margin-right: 2rem;
+  transition: 0.5s;
+}
+
+
+.mininav ul{
+  display: block;
+  margin-top: -0.8rem;
+}
+.mininav h4{
+  margin-left: 3vw;
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 2.5px;
+  color: rgb(43, 0, 151);
+}
+.mininav ul li {
+  margin-top: 0.2rem;
+  list-style-position: inside;
+  list-style: none;
+  font-family: 'Merriweather', serif;
+
+}
+.mininav ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.8s;
+}
+.mininav ul li a:hover{
+border-left: 0.15rem solid rgb(189, 97, 0);
+padding-left: 0.2rem;
+}
+.totop{
+margin-left: 45.5vw;
+margin-top: 1vh;
+
+}
+.totop a{
+  text-decoration: none;
+  margin-left: -2vw;
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.totop a:hover{
+  color: black;
+}
+.copyright{
+  margin-left: 41.5vw;
+  margin-top: 2vh;
+  padding-bottom: 1vh;
+}
+.copyright a{
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  color: black ;
+}
+
+
+
+
+
+
+

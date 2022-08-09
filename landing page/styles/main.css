@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,600&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.page {
+  background: rgba(0, 0, 0, 0.55) url(../images/back1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Kanit", sans-serif;
+  background-blend-mode: darken;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0% 1rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h2 {
+  color: rgb(255, 108, 108);
+}
+.logo img {
+  width: 7.5%;
+  border: 0.1rem solid rgb(205, 187, 187);
+  border-radius: 45%;
+  margin-right: 1rem;
+}
+.navlist ul {
+  display: inline-flex;
+  margin-inline-end: 7rem;
+}
+.navlist ul li {
+  list-style: none;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.navlist ul li a {
+  text-decoration: none;
+  color: rgb(255, 108, 108);
+}
+
+.navlist ul li a:hover {
+  color: rgba(255, 255, 255, 0.86);
+  border-bottom: 0.1rem solid rgb(255, 0, 0);
+  transition: 0.5s;
+}
+.navlist:hover {
+  background-color: rgb(255, 174, 156, 0.1);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.navlist button {
+  background-color: rgb(255, 128, 128);
+  margin-inline-end: 2rem;
+  padding: 0.5rem 1.25rem;
+  margin: 0.4375rem;
+  border: 0.125rem double rgb(255, 200, 200);
+  border-radius: 1.875rem;
+  font-weight: 400;
+}
+.navlist button:hover {
+  background-color: rgba(255, 0, 0, 0.9);
+  border: 0.125rem solid rgb(255, 97, 97);
+  color: white;
+  transition: 1s;
+}
+.maincontent {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main0 {
+  color: rgb(234, 106, 106);
+  justify-content: space-between;
+  padding-bottom: 20vh;
+}
+.mainline {
+  color: rgb(180, 236, 255);
+  font-size: 2rem;
+}
+.mainline span {
+  color: rgba(255, 0, 0, 0.934);
+  font-size: 3rem;
+}
+
+.main1 img {
+  width: 80%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5%;
+  margin-inline: 4rem;
+}
+.main0 p {
+  color: rgb(180, 236, 255);
+  font-size: larger;
+}
+
+.main0 button {
+  background-color: rgb(255, 108, 108);
+  padding: 0.5rem 1.25rem;
+  margin: 0.4375rem;
+  border: 0.125rem solid rgb(255, 0, 0);
+  border-radius: 0.5rem;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.main0 button:hover {
+  background-color: rgb(85, 47, 47);
+  border: 0.125rem solid rgb(35, 30, 30);
+  color: white;
+  transition: 0.8s;
+  background: linear-gradient(rgb(255, 129, 129), rgb(255, 0, 0));
+}

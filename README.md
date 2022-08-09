@@ -33,4 +33,4 @@ build website from beginner to intermediate level
 - [@yashwanthBM](https://www.github.com/yashwanth-gh)
 
 
-![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/codeshack-summerofcode/portfolio/images/logo.png?raw=true)
+![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/portfolio/images/working.gif)

@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.page {
+  background-color: rgb(174, 255, 174);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  z-index:1;/**/
+  top: 0;
+  cursor: pointer;
+
+  background-color: rgb(132, 255, 132);
+  border-bottom: 0.05rem solid rgb(0, 188, 0);
+}
+.logo {
+  display: flex;
+  margin-left: 1vw;
+  width: 40%;
+  margin-top: 1vh;
+  color: rgb(30, 142, 30);
+}
+.navbar:hover .logo span {
+  color: darkred;
+  transition: 0.5s;
+}
+.navbar:hover h2 {
+  border-bottom: 0.1rem double darkred;
+  transition: 0.5s ease-out;
+}
+.navbar h2 {
+  margin-left: 1vw;
+  font-family: "Aboreto", cursive;
+}
+.navlist {
+  width: 60%;
+  font-family: "Playfair Display", serif;
+}
+.navlist ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.navlist ul a {
+  text-decoration: none;
+  color: darkgreen;
+  transition: 0.5s ease-out;
+}
+.navlist ul a:hover {
+  color: rgb(168, 0, 0);
+  border-bottom: 0.1rem solid darkgreen;
+}
+/* .btn1 {
+  background-color: rgb(124, 255, 88);
+  color: rgb(0, 85, 0);
+  border: 0.1rem solid darkgreen;
+  border-radius: 7%;
+  padding: 0.3rem;
+  padding-bottom: 0.4rem;
+  font-family: "Playfair Display", serif;
+  transition: 0.3s ease-in-out;
+}
+.btn1:hover {
+  background-color: rgb(0, 160, 0);
+  color: bisque;
+  border-color: rgb(0, 165, 5);
+} */
+.headmain{
+  margin-top: 0;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  animation: change 16s ease-in-out infinite;
+
+}
+.head {
+  display: flex;
+  text-decoration: none;
+
+}
+.headcover{
+  height: 100vh;
+  width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.dynamic {
+  margin: 7vh 0 0 -1vw;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+.dynamic li {
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  top: 0;
+  position: relative;
+  animation: yaxis 12s steps(4) infinite;
+}
+.dynamic li {
+  position: relative;
+}
+.dynamic li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:transparent;
+
+  animation: xaxis 3s steps(10) infinite;
+}
+.head h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  margin: 7vh 0 0 12vw;
+  color: rgb(0, 199, 0);
+}
+.head span {
+  color: rgb(255, 45, 45);
+}
+.headcontent p {
+  font-family: "Edu QLD Beginner", cursive;
+  font-size: 1.8rem;
+  margin: 4vh 0 0 12vw;
+  color: rgb(120, 255, 120);
+  letter-spacing: 0.08rem;
+}
+.morehead h2{
+  margin: 0 0 0 17vw;
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+  color: darkgreen;
+}
+.img1{
+  height: 70vh;
+  width: auto;
+  margin: 3vh 0 0 13.5vw;
+}
+.morecontent p:first-child{
+  margin: 8vh 25vh 0 12vw;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.morecontent p{
+  margin: 4vh 25vh 0 12vw;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: darkgreen;
+}
+.morecontent ul li{
+  margin-top: 2vh;
+}
+.morecontent ul{
+  margin: 1vh 25vh 0 12vw;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.extrahead h2{
+  margin: 12vh 0 0 23vw;
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+  color: darkgreen;
+}
+.extracontent p{
+  margin: 8vh 25vh 0 12vw;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.img2{
+  height: 70vh;
+  width: auto;
+  margin: 3vh 0 0 21.5vw;
+}
+
+
+
+.end{
+  margin-top: 10vh;
+  background-color: rgba(0, 16, 79, 0.113);
+  padding-top: 3vh;
+  border-top: 0.2rem double black;
+}
+
+.footname h2 {
+
+  font-family: "Aboreto", cursive;
+  letter-spacing: 9px;
+  margin-left: 36vw;
+  margin-right: 37vw;
+color: green;
+}
+
+.handels ul{
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+  list-style: none;
+  margin-left: -8rem;
+}
+.handels ul li a{
+margin-left: 3rem;
+  transition: 0.5s;
+}
+
+.handels ul li img{
+  height: 4vh;
+  width: auto;
+}
+
+.mininav ul{
+  display: block;
+  margin-top: -0.8rem;
+}
+.mininav h4{
+  margin-left: 3vw;
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 2.5px;
+  color: rgb(0, 101, 15);
+}
+.mininav ul li {
+  margin-top: 0.2rem;
+  list-style-position: inside;
+  list-style: none;
+  font-family: 'Merriweather', serif;
+
+}
+.mininav ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.8s;
+}
+.mininav ul li a:hover{
+border-left: 0.15rem solid rgb(189, 97, 0);
+padding-left: 0.2rem;
+}
+.totop{
+margin-left: 45.5vw;
+margin-top: 1vh;
+
+}
+.totop a{
+  text-decoration: none;
+  margin-left: -3vw;
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  color: green;
+}
+.totop a:hover{
+  color: black;
+}
+.copyright{
+  margin-left: 42.8vw;
+  margin-top: 2vh;
+  padding-bottom: 1vh;
+}
+.copyright a{
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  color: black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes change {
+  0%,100%{
+    background-image: url(../images/pic1.jpg);
+  }
+  25%{
+    background-image: url(../images/pic2.jpg);
+  }
+  50%{
+    background-image: url(../images/pic3.jpg);
+  }
+  75%{
+    background-image: url(../images/pic4.jpg);
+  }
+}
+
+@keyframes xaxis {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes yaxis {
+  100% {
+    top: -360px;
+  }
+}

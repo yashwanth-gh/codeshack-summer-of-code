@@ -29,6 +29,14 @@ Though both the projects are not responsive but learnt how to
 build website from beginner to intermediate level
 . Now i can say after these projects i fell in love with web development. 
 
+## Deployed screenshots  
+![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/home.png)
+![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/home2.png)
+![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/casestudy.png)
+![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/footer.png)
+![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/form.png)
+![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/table.png)  
+
 ## Authors
 
 - [@yashwanthBM](https://www.github.com/yashwanth-gh)

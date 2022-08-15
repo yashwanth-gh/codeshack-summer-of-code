@@ -19,16 +19,16 @@ my college seniors shreyansh brother and apoorv brother
 HTML, CSS and JAVASCRIPT.
 ## 🚀 Lessons Learned
 
-Currently i built Two projects  
+Currently i built Three projects  
 1. Landing page  
 2. portfolio website
-3. website for CSOC
+3. website for CSOC (deployed screenshots below)
   
  learnt how to 
 build website from beginner to intermediate level
 . Now i can say after these projects i fell in love with web development. 
 
-## 🚀 Deployed screenshots  
+## 🚀 Deployed screenshots ( for CSOC)  
 ![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/home.png)
 ![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/home2.png)
 ![Logo](https://github.com/yashwanth-gh/codeshack-summer-of-code/blob/main/CSOC-2k22/screenshots/casestudy.png)

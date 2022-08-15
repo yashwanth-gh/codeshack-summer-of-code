@@ -21,7 +21,8 @@ HTML, CSS and JAVASCRIPT.
 
 Currently i built Two projects  
 1. Landing page  
-2. portfolio website  
+2. portfolio website
+3. website for CSOC
   
 
 Though both the projects are not responsive but learnt how to 

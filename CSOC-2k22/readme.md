@@ -24,8 +24,7 @@ Currently i built Two projects
 2. portfolio website
 3. website for CSOC
   
-
-Though both the projects are not responsive but learnt how to 
+ learnt how to 
 build website from beginner to intermediate level
 . Now i can say after these projects i fell in love with web development. 
 

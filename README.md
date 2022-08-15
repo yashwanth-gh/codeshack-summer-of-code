@@ -19,13 +19,13 @@ my college seniors shreyansh brother and apoorv brother
 HTML, CSS and JAVASCRIPT.
 ## 🚀 Lessons Learned
 
-Currently i built Two projects  
+Currently i built Three projects  
 1. Landing page  
 2. portfolio website
 3. website for CSOC
   
 
-Though both the projects are not responsive but learnt how to 
+Though projects are not responsive but learnt how to 
 build website from beginner to intermediate level
 . Now i can say after these projects i fell in love with web development. 
 
